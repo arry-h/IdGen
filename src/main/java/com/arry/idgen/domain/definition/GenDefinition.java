@@ -1,11 +1,11 @@
-package com.arry.idgen.domain.defination;
+package com.arry.idgen.domain.definition;
 
 /**
  * @author arry
  * @description 格式定义
  * @since 1.0
  */
-public abstract class GenDefination {
+public abstract class GenDefinition {
 
 
     /**
