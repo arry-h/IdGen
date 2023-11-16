@@ -1,6 +1,8 @@
 package com.arry.idgen.resolver;
 
 import com.arry.idgen.domain.definition.GenDefinition;
+import com.arry.idgen.domain.definition.IdDefinition;
+import com.arry.idgen.domain.pattern.Pattern;
 
 /**
  * @author arry
@@ -10,11 +12,11 @@ import com.arry.idgen.domain.definition.GenDefinition;
 public class IdDefinitionResolver implements IDefinitionResolver{
     @Override
     public boolean support(GenDefinition definition) {
-        return false;
+        return definition instanceof IdDefinition;
     }
 
     @Override
-    public void resolve(GenDefinition definition) {
-
+    public Pattern resolve(GenDefinition definition) {
+        return null;
     }
 }

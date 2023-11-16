@@ -1,4 +1,4 @@
-package com.arry.idgen.domain;
+package com.arry.idgen.domain.pattern;
 
 /**
  * @author arry

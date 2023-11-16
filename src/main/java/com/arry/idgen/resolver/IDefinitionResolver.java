@@ -2,6 +2,7 @@ package com.arry.idgen.resolver;
 
 import com.arry.idgen.domain.GenReq;
 import com.arry.idgen.domain.definition.GenDefinition;
+import com.arry.idgen.domain.pattern.Pattern;
 
 /**
  * @author arry
@@ -21,5 +22,5 @@ public interface IDefinitionResolver {
      * 解析
      * @param definition 格式定义
      */
-    void resolve(GenDefinition definition);
+    Pattern resolve(GenDefinition definition);
 }
