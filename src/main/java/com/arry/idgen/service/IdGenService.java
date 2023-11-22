@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * @author arry
- * @description
+ * @description id生成service
  * @since 1.0
  */
 @Service
